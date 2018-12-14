@@ -1,0 +1,183 @@
+/*
+Presbyterian Church of Aotearoa New Zealand // St Johns Parish Styles
+Created 21/09/2005
+.
+Author:
+Hamish Stevenson
+Cam Trollope
+CATCH DESIGN COLLECTIVE
+Web Developers
+
+Add update notes here:
+*/
+
+/* Global Styles */
+body { background: #fff; margin: 0; padding: 0; text-align: left; font-size: 82%; font-family: "Lucida Grande",Geneva, Arial, sans-serif; }
+
+img { border: 0; padding: 0; margin-bottom: 0 }
+a, a:visited {	color: #3366CC; text-decoration: underline;}
+a:hover { color: #3366CC; text-decoration: none;}
+a img {	border: none;}
+
+#container { position: relative; width: 760px; margin: 0; text-align: left; padding: 0;}
+
+.hide {	position: absolute; left: -2000px; width: 999px;}
+.alignleft { float: left;}
+.alignright { float: right;}
+
+p, ol, ul, td, label, input { font-family: "Lucida Grande", Geneva, Arial, sans-serif; color: #333; font-size: 0.9em; line-height: 1.4em; margin: 0; }
+
+h2 { font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal !important; font-size: 1.8em; color: #fff; text-transform: uppercase; margin: 0; padding: 10px 0; }
+h3 { font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; font-size: 1.65em; color: #E3A102; margin: 20px 0 10px 0; text-transform: none; border-bottom: 1px dotted #E3A102; }
+h4 { font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; font-size: 1.35em; color: #000;  margin: 15px 0 0 0; }
+h5 { font-family: Georgia, "Times New Roman", Times, serif; font-weight: bold; font-size: 1.15em; color: #000; text-transform: none; margin: 3px 0; }
+
+table.imgtext-nowrap h5 { font-family: Georgia, "Times New Roman", Times, serif; font-weight: bold; font-size: 1.15em; color: #000; text-transform: none; margin: 3px 0; }
+
+/* collapse lists */
+#container ul, #container ul li { margin: 0; padding: 0; list-style: none; }
+ul.nav, ul.nav li {	display: inline; }
+
+/* Header */
+#header { background: #336699 url(../images/p_header_stjohns.jpg) no-repeat 150px 0px; width: 760px; padding: 0; height: 96px; margin: 0;}
+#header h1 { margin: 0; padding: 0; display: inline;}
+
+/* Header Links */
+#header-links { position: absolute; top: 0; left: 628px; width: 133px; height: 96px; margin: 0; padding: 0; }
+#header-links p { font-size: 0.8em; color: #CCFFFF; margin: 0; }
+#header-links a, #header-links a:visited { color: #fff; text-decoration: none}
+#header-links a:hover {text-decoration: underline}
+
+/* Header Pic */
+#header-pic { position: absolute; top: 0; left: 239px; width: 389px; height: 96px; margin: 0; padding: 0; }
+
+/* h tag links */
+#content-inside h4 a { color: #000 !important; text-decoration: underline; }
+#content-inside h4 a:hover { color: #000 !important; text-decoration: none; }
+
+/* Contact Us*/
+#header-contact { display: inline; position: absolute; top: 8px; left: 8px; width: 120px; height: 22px; margin: 0; padding: 0;}
+
+/* Search */
+#searchbox { display: inline; position: absolute; top: 30px; left: 8px; width: 120px; height: 22px; margin: 0; padding: 0;}
+#searchbox p, #searchbox input {margin: 0 !important;}
+.search-input { float: left; border: 1px solid #ddd; padding: 0px; width: 93px; height: 17px; margin: 0;}
+.search-btn { float: left; padding: 0px; margin: 0; width: 18px; height: 19px;}
+
+/* Email Page */
+#email-page { position: absolute; top: 0px; right: 15px; }
+#email-page a, #email-page a:visited, #email-page a:hover { font-size: 0.85em; color: 666 !important; }
+#email-page img { float: left; }
+
+/* Header Sitemap */
+#header-sitemap { display: inline; position: absolute; top: 73px; left: 8px; width: 120px; height: 20px; margin: 0; padding: 0;}
+
+/* =Primary Nav */
+#primary-nav { position: relative; color: #fff; list-style: none; background: #339999; width: 760px; height: 36px; padding: 0; margin: 0; border-top: 1px solid #fff; }
+#primary-nav ul { position: absolute; top: 0px; width: 100%; padding: 0; margin: 0; list-style: none; left: 0px; font-size: 0.85em;}
+#primary-nav ul li a { display: block; float: left; padding: 10px 10px; height: 100%; color: #fff; text-decoration: none; text-transform: uppercase; border-left: 1px solid #fff; }
+#primary-nav ul li a:hover { display: block; height: 100%; color: #fff; text-decoration: none; background: #336699;}
+#primary-nav ul li.current a { background: #336699;} /* current class for primary nav */
+
+/* =Secondary Nav */
+#sec-nav ul, #sec-nav li { margin: 0; padding: 0; list-style: none !important; }
+#sec-nav ul ul li { margin: 0 0 3px 10px; }
+#sec-nav ul ul ul li { margin: 0px 0 5px 10px; }
+
+/* Body Styles */
+body#home { background:  url(../images/bg-inside.gif) top left repeat-y; }
+body#inside { background: url(../images/bg-inside.gif) top left repeat-y; }
+
+
+/* Content Styes */
+
+/* Content */
+#content { position: relative; border-top: 1px solid #F5F5E4; margin: 0; padding: 0; background:  url(../resources/images/bg-content-home.gif) top left no-repeat; width: 760px; height: 800px; }
+#content-inside { position: relative; border-top: 1px solid #F5F5E4; clear: both; margin: 0; padding: 0 0 10px 0; width: 760px; }
+
+/* =Page Header */
+#page-header {	
+	position: relative;
+	margin: 0; 
+	padding: 0;
+	background: #E3A102 ;
+	float: left;
+	width: 760px;
+}
+#page-header h2 { margin-left: 20px; }
+/* =Main Column */ 
+#main-col { 
+	position: relative;
+	margin: 0; 
+	padding: 0 20px;
+	/*border: 1px solid #000;*/
+	float: left;
+	/* IE 5 */
+	width: 534px;
+	/* hack. */
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 504px; /* the correct width */
+}
+/* BNTO 5 */ body>#main-col {width: 494px;}
+
+#main-col p { font-size: 0.9em; margin: .2em 0 1em 0}
+#main-col ul { margin: 0 0 10px 20px; list-style-type: disc; }
+#main-col ol { margin: 0 0 10px 20px; }
+#main-col ul li { list-style-type: disc; }
+
+/* Right Column */
+#right-col { 
+	position: relative;
+	width: 195px; 
+	padding: 0; 
+	/*border: 1px solid #000;*/
+	margin: 0 5px 0 0;
+	float: right;
+	}
+
+/* Footer */
+#footer { width: 740px; clear: both; margin: 0 0 15px 20px; padding: 50px 0 0 0; /*border: 1px solid #000;*/}
+#footer p { color: #666; font-size: 0.8em; margin: 0;}
+#footer a, #footer a:visited, #footer a:hover { color: #666; }
+
+/* Global Mission Office Styles */
+#global img { float: right;}
+#global h2 { text-transform: none; margin: 0;  }
+#global h3 { font-size: 1.3em; margin: 0 0 10px 0;  }
+
+/* =sPanz Styles */
+#spanz img { float: right;}
+
+/* Plugin Styles */
+#sitemap { margin: 10px 0;}
+#sitemap ul, #sitemap li { margin: 0; list-style-type: none !important; }
+#sitemap li a { text-decoration: none;}
+#sitemap li a:hover { text-decoration: underline;}
+#sitemap ul li { font-size: 1.25em; margin: 15px 0 5px 0px; text-transform: uppercase; /*border-bottom: 1px dotted #ccc;*/ }
+#sitemap ul ul li { font-size: 1.15em; padding: 0; margin: 0px 0 0 10px !important; text-transform: none; border: none; }
+#sitemap ul ul ul li { font-size: 1.05em; padding: 0; margin: 0 0 0 10px !important; text-transform: none; border: none; }
+#sitemap ul ul ul ul li { font-size: 0.95em; margin: 0 0 0 10px !important; }
+
+/* =Search a Contact */
+#contact img {float: left;}
+table#search-table { width: 504px; }
+td#search-region-list { width: 175px; }
+#search-extrasearch { position: absolute; top: 15px; left: 555px; width: 195px; }
+td#search-extrasearch { width: 250px; }
+#search-results { position: absolute; top: 320px; left: 555px; width: 195px; }
+table#search-results-table { width: 190px; }
+table#search-results-table td { border-bottom: 2px solid #fff; font-size: 11px; }
+#search-detail { width: 250px; }
+table#search-detail { width: 500px; }
+
+/* =Image Alignment - this is my bug to get around Typo's silly table insertion around img tags!! */
+#imgtext-nowrap {  }
+.imgtext-content-left { float: left; }
+.imgtext-table-left { float: left; }
+.seperator { clear: both; height: 1px; }
+.caption p { color: #666; font-size: 0.75em !important; }
+
+/* Ministerial Vacancies */
+table#ministerial-vacancies { width: 500px !important; }
+table#ministerial-vacancies td { border: 1px solid #ccc; font-size: 0.75em; }
