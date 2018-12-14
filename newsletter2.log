@@ -1,0 +1,46 @@
+This is TeX, Version 3.14159265 (TeX Live 2015/Debian) (preloaded format=tex 2017.9.17)  17 SEP 2017 12:43
+**newsletter2.tex
+(./newsletter2.tex
+! Undefined control sequence.
+l.1 \begin
+          {document}
+? q
+OK, entering \batchmode...
+! Undefined control sequence.
+l.3 \begin
+          {minipage}{0.3\textwidth}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3 \begin{minipage}{0.3\textwidth
+                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.5 \includegraphics
+                    [width=\linewidth]{stjohns-logo.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.5 \includegraphics[width=\linewidth
+                                     ]{stjohns-logo.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+ [1] )
+Output written on newsletter2.dvi (1 page, 272 bytes).
